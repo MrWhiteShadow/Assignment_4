@@ -1,0 +1,104 @@
+<!DOCTYPE html> 
+<html> 
+     <head> 
+          <title>Text Input Control Example</title> 
+     </head> 
+     <body bgcolor="MidnightBlue">
+     <table  width=100% cellpadding="10" cellspacing="0">
+     <tr bgcolor="MidnightBlue">
+     <td width=10% style="color:YellowGreen"><b style="font-size:60px">Book Shop</b></td>
+<td width=60%>
+<p style="font-size:30px"><b style="color:white">Sing In</b></p>
+</td>
+<td width=30%></td>
+     </tr>
+     <tr bgcolor="MidnightBlue">
+<td width=70%></td>
+<td width=30% colspan=2>
+          <form style="color:white"> 
+               Email: <input type="text" name="username" /> 
+               Password: <input type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" /> 
+               <input type="submit" value="LogIn">
+          </form>
+          </td>
+          <tr bgcolor="MidnightBlue">
+          <td width=2%></td>
+          <td width=50% style="text-align:right;"><a href="" style="color:white">Forget Password</a></td>
+          <td width=25%></td>
+          <tr bgcolor="Blue">
+          <td></td>
+          <td colspan=2>
+          <h1 style="font-size:40px"><b style="color:white">Create a New Account</b></h1>
+          </td>
+          <tr bgcolor="Blue" style="vertical-align:top;">
+          <td width="70%" height="580"><img src="C.JPG" width=526 height=400></td>
+          <td colspan=2 width="30%" height="580">
+          <form style="color:white" method="" action="submit.html"> 
+               First Name:  <br>
+               <input type="text" name="name" placeholder="Your first name.." /> 
+               <br> 
+               <br>
+               Last Name: <br>
+               <input type="text" name="last_name" placeholder="Your last name.." /> 
+                <br> 
+                <br>
+               Email: <br>
+               <input type="text" name="email" placeholder="New Email" /> 
+                <br> 
+                <br>
+               Confirm Email: <br>
+               <input type="text" name="email" placeholder="Confirm Email Again" /> 
+                <br> 
+                <br>
+               Password: <br>
+               <input type="text" name="new_password" placeholder="New Password" /> 
+                <br>
+                <br> 
+               Confirm Password: <br>
+               <input type="text" name="new_password" placeholder="Confirm Password Again" /> 
+                <br> 
+                <br>
+                Date Of Birth: <br>
+                <input type="date" name="birth_date"/> 
+                <br> 
+                <br>
+                <label for="country">Country</label>
+               <select id="country" name="country">
+               <option value="bangladesh">Bangladesh</option>
+               <option value="india">India</option>
+               <option value="Canada">Canada</option>
+               <option value="US">US</option>
+               <option value="UK">UK</option>
+               <option value="Italy">Italy</option>
+               </select>
+               <br>
+               <br>
+               Adress
+               <br>
+               <textarea rows="4" cols="30" name="address"></textarea> 
+               <br>
+                <br> Gender
+                <br> 
+               <input type="radio" name="gender" value="male"> Male 
+               <br> 
+               <input type="radio" name="gender" value="female"> Female 
+               <br>
+               <br> Language You Speak
+               <br>
+               <input type="checkbox" name="bangla" value="on"> Bangla 
+               <br> 
+               <input type="checkbox" name="english" value="on"> English
+               <br> 
+               <input type="checkbox" name="other" value="on"> Other
+               <br>
+               <br>
+               <input type="submit" value="Submit"> 
+               </form> 
+          </td>
+          <tr>
+          <td colspan=3 weght=100%>Design By Radowan</td>
+          </tr>
+          </table> 
+     </body> 
+</html>
+
